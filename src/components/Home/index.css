@@ -1,0 +1,65 @@
+ 
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   background-color: black;
+    min-height: 100vh;
+}
+.banner{
+    width: 100vw;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:576px){
+    .banner{
+        height: 50vh;
+
+
+    }
+
+}
+@media screen and (min-width:968px){
+    .banner{
+        height: 50vh;
+        width: 80vw;
+        margin-top: 60px;
+
+
+    }
+    
+}
+.heading{
+    color: white;
+    font-family: "Roboto";
+}
+.loader{
+    color: white;
+    font-size: 25px;
+}
+
+.movie-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:576px){
+    .movie-card-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.not-found{
+    color: white;
+    font-family: "roboto";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
